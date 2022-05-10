@@ -1,0 +1,35 @@
+.accountDashboard {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    width: 100%;
+    height: 100%
+}
+
+.asideNav {
+    height: 300px;
+    border-bottom: 1px solid gray;
+}
+
+.mainBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.mainBlockContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.needHelp {
+    color: #1e90ff;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.needHelpHeading {
+    color: black;
+    margin: 20px 0px;
+    cursor: default
+}

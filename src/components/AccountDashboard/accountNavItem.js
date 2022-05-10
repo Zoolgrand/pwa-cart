@@ -18,7 +18,7 @@ const AccountNavItem = props => {
                 setPageToRender(name);
             }}
         >
-            <FontAwesomeIcon icon={icon} size='lg' />
+            <FontAwesomeIcon icon={icon} size="lg" />
             <h2>{title}</h2>
         </div>
     );

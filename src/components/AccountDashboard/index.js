@@ -1,1 +1,1 @@
-export {default} from './accountDashboard'
+export { default } from './accountDashboard';

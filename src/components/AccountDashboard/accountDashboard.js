@@ -20,7 +20,7 @@ const AccountDashboard = props => {
             <p className={classes.needHelpHeading}>You need help?</p>
             <p>Track order status</p>
             <p>My payment option</p>
-            <p>Returns, Refunds, & Cancelations</p>
+            <p>Returns, Refunds, & Cancellations</p>
             <p>Delivery Time</p>
             <p>Contact Us</p>
         </div>

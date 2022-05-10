@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: 1fr 4fr;
     width: 100%;
-    height: 100%
+    height: 100%;
 }
 
 .asideNav {
@@ -31,5 +31,5 @@
 .needHelpHeading {
     color: black;
     margin: 20px 0px;
-    cursor: default
+    cursor: default;
 }

@@ -7,14 +7,16 @@ module.exports = targets => {
         '@magento/venia-ui/lib/components/Header/cartTrigger.js'
     );
 
-    CartTriggerComponent.addImport("import { useHistory } from 'react-router-dom';")
+    CartTriggerComponent.addImport(
+        "import { useHistory } from 'react-router-dom';"
+    );
 
     CartTriggerComponent.insertAfterSource(
         'classes.triggerContainer;',
         `const history = useHistory();
         const redirectToCartHandler = () =>{history.push("/cart")}`
     );
-    
+
     CartTriggerComponent.setJSXProps('button className={classes.trigger}', {
         onClick: '{redirectToCartHandler}'
     });

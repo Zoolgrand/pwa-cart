@@ -5,8 +5,7 @@ import {
     faAddressBook,
     faHeart,
     faMoneyBill1,
-    faCalendarAlt,
-    
+    faCalendarAlt
 } from '@fortawesome/free-regular-svg-icons';
 
 import AccountInformationPage from '@magento/venia-ui/lib/components/AccountInformationPage';

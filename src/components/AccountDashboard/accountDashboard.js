@@ -1,6 +1,6 @@
 import React from 'react';
 import AccountNavItem from './accountNavItem';
-import { useAccountDashboard } from './useAccountDashboard';
+import { useAccountDashboard } from '../../talons/AccountDashboard/useAccountDashboard';
 import { useStyle } from '@magento/venia-ui/lib/classify';
 import defaultClasses from './accountDashboard.module.css';
 

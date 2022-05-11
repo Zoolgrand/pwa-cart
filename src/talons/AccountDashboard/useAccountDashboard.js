@@ -8,12 +8,24 @@ import {
     faCalendarAlt
 } from '@fortawesome/free-regular-svg-icons';
 
-import AccountInformationPage from '@magento/venia-ui/lib/components/AccountInformationPage';
-import OrderHistoryPage from '@magento/venia-ui/lib/components/OrderHistoryPage';
-import WishlistPage from '@magento/venia-ui/lib/components/WishlistPage';
-import AddressBookPage from '@magento/venia-ui/lib/components/AddressBookPage';
-import SavedPaymentsPage from '@magento/venia-ui/lib/components/SavedPaymentsPage';
-import CommunicationsPage from '@magento/venia-ui/lib/components/CommunicationsPage';
+const AccountInformationPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/AccountInformationPage')
+);
+const OrderHistoryPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/OrderHistoryPage')
+);
+const WishlistPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/WishlistPage')
+);
+const AddressBookPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/AddressBookPage')
+);
+const SavedPaymentsPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/SavedPaymentsPage')
+);
+const CommunicationsPage = React.lazy(() =>
+    import('@magento/venia-ui/lib/components/CommunicationsPage')
+);
 
 export const useAccountDashboard = () => {
     const [pageToRender, setPageToRender] = useState('order_history');

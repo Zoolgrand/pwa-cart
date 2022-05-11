@@ -1,0 +1,18 @@
+.navItem {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.navItem h2 {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.navItem_active {
+    composes: navItem;
+    color: #1e90ff;
+    font-weight: 800;
+}

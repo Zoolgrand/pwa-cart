@@ -1,0 +1,21 @@
+.accountLayout {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.navigation {
+    height: 300px;
+    border-bottom: 1px solid gray;
+}
+
+.needHelp {
+    color: #1e90ff;
+    cursor: pointer;
+    font-weight: 800;
+}
+
+.needHelpHeading {
+    color: black;
+    margin: 20px 0px;
+    cursor: default;
+}

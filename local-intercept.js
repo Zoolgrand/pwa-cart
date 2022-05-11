@@ -25,6 +25,24 @@ module.exports = targets => {
     const CartTriggerComponent = require('./src/components/CartTrigger/cartTrigger.targetables.js');
     CartTriggerComponent(targets);
 
+    const OrderHistoryPageComponent = require('./src/components/OrderHistoryPage/orderHistoryPage.targetables.js');
+    OrderHistoryPageComponent(targets);
+
+    const WishlistPageComponent = require('./src/components/WishlistPage/wishlistPage.targetables.js');
+    WishlistPageComponent(targets);
+
+    const AddressBookPageComponent = require('./src/components/AddressBookPage/addressBookPage.targetables.js');
+    AddressBookPageComponent(targets);
+
+    const SavedPaymentsPageComponent = require('./src/components/SavedPaymentsPage/savedPaymentsPage.targetables.js');
+    SavedPaymentsPageComponent(targets);
+
+    const CommunicationsPageComponent = require('./src/components/CommunicationsPage/communicationsPage.targetables.js');
+    CommunicationsPageComponent(targets);
+
+    const AccountInformationPageComponent = require('./src/components/AccountInformationPage/accountInformationPage.targetables.js');
+    AccountInformationPageComponent(targets);
+
     const AccountTriggerComponent = require('./src/components/AccountTrigger/accountTrigger.targetables.js');
     AccountTriggerComponent(targets);
 
